@@ -145,7 +145,81 @@ XXMXXRXXMXXRXXMXXRXXMXXRXXMXXRXXMXXR
 
 <p> TRYXNG TX GXT THXRX.</p>
 
+<hr class="archive-divider">
 
+<h1>ARCHIVE 004</h1>
+
+<p class="date">RECORD: 11/07/26</p>
+
+<img src="images/BXSXMXNT.gif"
+     alt="Archived animation"
+     style="margin-bottom: 25px;">
+
+     <p>LXXVX MX XLXNX.</p>
+
+<div style="text-align: center; margin-top: 25px;">
+
+    <input
+        type="password"
+        id="archivePassword"
+        placeholder="ENTER ACCESS CODE"
+        style="
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #444;
+            color: #eee;
+            padding: 12px;
+            font-family: monospace;
+            text-align: center;
+            outline: none;
+            width: 220px;
+        "
+    >
+
+    <br>
+
+    <button
+        onclick="checkArchivePassword()"
+        style="
+            background: transparent;
+            border: 1px solid #444;
+            color: #aaa;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-family: monospace;
+            cursor: pointer;
+        "
+    >ENTER</button>
+
+    <p id="passwordError"
+       style="color: #666; font-size: 11px;">
+    </p>
+
+</div>
+
+<script>
+function checkArchivePassword() {
+
+    const correctPassword = "I AM SCARED";
+
+    const enteredPassword =
+        document.getElementById("archivePassword").value;
+
+    if (enteredPassword === correctPassword) {
+
+        window.location.href = "SCXRXD.html";
+
+    } else {
+
+        document.getElementById("passwordError").textContent =
+            "ACCESS DENIED";
+
+    }
+}
+</script>
+
+<hr class="archive-divider">
+<hr class="archive-divider">
 
 
         <footer>
